@@ -3,7 +3,7 @@ import "./NasaPhoto.css"
 import { Jumbotron, Collapse, Button, CardBody, Card } from "reactstrap"
 require ('dotenv').config()
 
-const apiKey = process.env.REACT_APP_NASA_KEY
+const apiKey = 'DEMO_KEY'
 
 export default function NasaPhoto  ()  {
   const [isOpen, setIsOpen] = useState(false)
